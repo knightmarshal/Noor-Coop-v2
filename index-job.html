@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="en">
+	
+<!-- Mirrored from shreethemes.in/fronter/index-job.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Jul 2022 15:10:45 GMT -->
+<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Fronter - One Page & Multipurpose Parallax Template</title>
+	    <meta name="description" content="Responsive HTML5 Template" />
+	    <meta name="keywords" content="Onepage, creative, modern, bootstrap 5, multipurpose, clean" />
+	    <meta name="author" content="Shreethemes" />
+	    <meta name="website" content="https://shreethemes.in/" />
+	    <meta name="email" content="support@shreethemes.in" />
+	    <meta name="version" content="1.1.0" />
+	    <!-- favicon -->
+        <link href="images/favicon.ico" rel="shortcut icon">
+		<!-- Bootstrap core CSS -->
+	    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+        <!-- Slider -->               
+        <link href="css/tiny-slider.css" rel="stylesheet" />
+        <!-- Tobii -->
+        <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
+	    <!--Material Icon -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+        <!-- Choice css -->               
+        <link rel="stylesheet" href="css/choices.min.css"/>
+        <!-- Date picker -->
+        <link rel="stylesheet" href="css/datepicker.min.css">
+	    <!-- Custom  Css -->
+	    <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/colors/green.css" rel="stylesheet" id="color-opt">
+	</head>
+
+	<body>
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky bg-white">
+            <div class="container">
+                <!-- Logo container-->
+				<a class="logo" href="index-job.html">
+                    <img src="images/logo-dark.png" class="logo-light-mode" alt="">
+                    <img src="images/logo-light.png" class="logo-dark-mode" alt="">
+                </a>
+                <!-- Logo End -->
+
+                <!-- Start navbar Toggle-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+                <!-- End navbar Toggle-->
+
+                <!--Login button Start-->
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item ps-1 mb-0">
+                        <a href="auth-login.html"><div class="btn btn-icon btn-pills btn-primary"><i data-feather="user" class="fea icon-sm"></i></div></a>
+                    </li>
+                </ul>
+                <!--Login button End-->
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-right" id="navmenu-nav">
+                        <li class="has-submenu">
+                            <a href="#home" class="sub-menu-item">Home</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#categories" class="sub-menu-item">Categories</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#about" class="sub-menu-item">About Us</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#jobs" class="sub-menu-item">Jobs</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#apps">Download Apps</a>
+                        </li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="jobs.html" class="sub-menu-item"> All Jobs</a></li>
+                                <li><a href="job-detail.html" class="sub-menu-item">Job Details</a></li>
+                                <li><a href="job-apply.html" class="sub-menu-item">Job Apply</a></li>
+                            </ul>
+                        </li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Start Hero -->
+        <section class="bg-half-260 bg-job-hero bg-soft-primary d-table w-100 background-effect overflow-hidden" data-jarallax='{"speed": 0.5}' style="background: url('images/bg/job.jpg');" id="home">
+            <div class="container-fluid z-index-1">
+                <div class="bg-overlay" style="background: url('images/curve-shape.png');"></div>
+                <div class="container position-relative z-index-1">
+                    <div class="row mt-5 justify-content-center">
+                        <div class="col-12">
+                            <div class="title-heading">
+                                <h4 class="heading fw-bold text-dark mb-4">Get your new <br> dream <span class="text-primary">Job</span> today</h4>
+                                <p class="text-muted para-desc mb-0">Find Jobs, Employment & Career Opportunities. Some of the companies we've helped recruit excellent applicants over the years.</p>
+                                <div class="row" id="reserve-form">
+                                    <div class="col-lg-10 mt-4">
+                                        <div class="card feature-top border-0 shadow rounded p-3">
+                                            <form action="#">
+                                                <div class="registration-form text-dark text-start">
+                                                    <div class="row g-lg-0">
+                                                        <div class="col-lg-3 col-md-6">
+                                                            <div class="filter-search-form position-relative filter-border">
+                                                                <i class="uil uil-briefcase-alt icons"></i>
+                                                                <input name="name" type="text" id="job-keyword" class="form-control filter-input-box bg-light border-0" placeholder="Search your keaywords">
+                                                            </div>
+                                                        </div><!--end col-->
+
+                                                        <div class="col-lg-3 col-md-6 mt-3 mt-md-0">
+                                                            <div class="filter-search-form position-relative filter-border">
+                                                                <i class="uil uil-map-marker icons"></i>
+                                                                <select class="form-select" data-trigger name="choices-location" id="choices-location" aria-label="Default select example">
+                                                                    <option value="AF">Afghanistan</option>
+                                                                    <option value="AZ">Azerbaijan</option>
+                                                                    <option value="BS">Bahamas</option>
+                                                                    <option value="BH">Bahrain</option>
+                                                                    <option value="CA">Canada</option>
+                                                                    <option value="CV">Cape Verde</option>
+                                                                    <option value="DK">Denmark</option>
+                                                                    <option value="DJ">Djibouti</option>
+                                                                    <option value="ER">Eritrea</option>
+                                                                    <option value="EE">Estonia</option>
+                                                                    <option value="GM">Gambia</option>
+                                                                </select>
+                                                            </div>
+                                                        </div><!--end col-->
+                                                        
+                                                        <div class="col-lg-3 col-md-6 mt-3 mt-lg-0">
+                                                            <div class="filter-search-form position-relative filter-border">
+                                                                <i class="uil uil-briefcase-alt icons"></i>
+                                                                <select class="form-select " data-trigger name="choices-type" id="choices-type" aria-label="Default select example">
+                                                                    <option selected="" value="1">Full Time</option>
+                                                                    <option value="2">Part Time</option>
+                                                                    <option value="3">Freelancer</option>
+                                                                    <option value="4">Remote Work</option>
+                                                                    <option value="5">Office Work</option>
+                                                                </select>
+                                                            </div>
+                                                        </div><!--end col-->
+
+                                                        <div class="col-lg-3 col-md-6 mt-3 mt-lg-0">
+                                                            <input type="submit" id="search" name="search" style="height: 60px;" class="btn btn-primary searchbtn submit-btn w-100" value="Search">
+                                                        </div><!--end col-->
+                                                    </div><!--end row-->
+                                                </div><!--end container-->
+                                            </form>
+                                        </div>
+                                    </div><!--ed col-->
+                                </div><!--end row-->
+                                
+                                <div class="mt-4">
+                                    <span class="text-muted"><span class="text-dark">Popular Searches :</span> Designer Developer Web IOS PHP Senior Engineer</span>
+                                </div>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+
+            <div class="bg-overlay bg-soft-primary"></div>
+            <ul class="circles p-0 mb-0">
+                <li class="brand-img"><img src="images/brands/shree-logo.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/skype.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/snapchat.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/spotify.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/telegram.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/whatsapp.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/android.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/facebook-logo-2019.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/linkedin.png" class="avatar avatar-md-sm" alt=""></li>
+                <li class="brand-img"><img src="images/brands/google-logo.png" class="avatar avatar-md-sm" alt=""></li>
+            </ul>
+        </section><!--end section-->
+        <div class="position-relative">
+            <div class="home-shape-arrow">
+                <a href="#jobs"><i class="mdi mdi-arrow-down arrow-icon text-dark h5 shadow-md"></i></a>
+            </div>
+        </div>
+        <!-- End Hero -->
+
+        <!-- Start -->
+        <section class="section bg-light" id="categories">
+            <div class="container">
+                <div class="row align-items-end mb-4 pb-2">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="section-title text-center text-md-start">
+                            <h4 class="title mb-md-2 mb-3">Search by Categories</h4>
+                            <p class="text-muted para-desc mb-0">Search your career opportunity with our categories</p>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-4 d-none d-md-block">
+                        <div class="text-md-end">
+                            <a href="javascript:void(0)" class="btn btn-link primary text-muted h6 mb-0">All Categories <span class="h5 mb-0 ms-1"><i class="uil uil-arrow-right align-middle"></i></span></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <div class="tiny-five-item">
+                            <div class="tiny-slide">
+                                <div class="card features feature-primary feature-clean category py-5 px-2 shadow rounded-md m-2">
+                                    <div class="icons bg-md text-center">
+                                        <i class="uil uil-gitlab d-block h3 mb-0 mx-auto rounded-pill"></i>
+
+                                        <div class="content mt-3">
+                                            <a href="javascript:void(0)" class="h6 title text-dark">Business <br> Development</a>
+                                            <h6 class="text-muted fw-normal mt-3 mb-0">74 Jobs</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card features feature-primary feature-clean category py-5 px-2 shadow rounded-md m-2">
+                                    <div class="icons bg-md text-center">
+                                        <i class="uil uil-book-open d-block h3 mb-0 mx-auto rounded-pill"></i>
+
+                                        <div class="content mt-3">
+                                            <a href="javascript:void(0)" class="h6 title text-dark">Marketing & <br> Communication</a>
+                                            <h6 class="text-muted fw-normal mt-3 mb-0">20 Jobs</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card features feature-primary feature-clean category py-5 px-2 shadow rounded-md m-2">
+                                    <div class="icons bg-md text-center">
+                                        <i class="uil uil-chart-pie-alt d-block h3 mb-0 mx-auto rounded-pill"></i>
+
+                                        <div class="content mt-3">
+                                            <a href="javascript:void(0)" class="h6 title text-dark">Project <br> Management</a>
+                                            <h6 class="text-muted fw-normal mt-3 mb-0">35 Jobs</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card features feature-primary feature-clean category py-5 px-2 shadow rounded-md m-2">
+                                    <div class="icons bg-md text-center">
+                                        <i class="uil uil-feedback d-block h3 mb-0 mx-auto rounded-pill"></i>
+
+                                        <div class="content mt-3">
+                                            <a href="javascript:void(0)" class="h6 title text-dark">Customer <br> Service</a>
+                                            <h6 class="text-muted fw-normal mt-3 mb-0">46 Jobs</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card features feature-primary feature-clean category py-5 px-2 shadow rounded-md m-2">
+                                    <div class="icons bg-md text-center">
+                                        <i class="uil uil-presentation-line d-block h3 mb-0 mx-auto rounded-pill"></i>
+
+                                        <div class="content mt-3">
+                                            <a href="javascript:void(0)" class="h6 title text-dark">Software <br> Engineering</a>
+                                            <h6 class="text-muted fw-normal mt-3 mb-0">60 Jobs</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">        
+                                <div class="card features feature-primary feature-clean category py-5 px-2 shadow rounded-md m-2">
+                                    <div class="icons bg-md text-center">
+                                        <i class="uil uil-fire d-block h3 mb-0 mx-auto rounded-pill"></i>
+
+                                        <div class="content mt-3">
+                                            <a href="javascript:void(0)" class="h6 title text-dark">Human <br> Resources</a>
+                                            <h6 class="text-muted fw-normal mt-3 mb-0">05 Jobs</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-12 mt-3 d-md-none d-block">
+                        <div class="text-center">
+                            <a href="javascript:void(0)" class="btn btn-link primary text-muted h6 mb-0">All Categories <span class="h5 mb-0 ms-1"><i class="uil uil-arrow-right align-middle"></i></span></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Partners start -->
+        <section class="py-4 border-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images/client/amazon.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images/client/google.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images/client/lenovo.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images/client/paypal.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images/client/shopify.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images/client/spotify.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Partners End -->
+
+        <!-- Start -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="about-image position-relative">
+                            <img src="images/job01.jpg" class="img-fluid rounded shadow" alt="">
+
+                            <div class="about-image-position">
+                                <img src="images/job02.jpg" class="img-fluid rounded shadow-lg" alt="">
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="btn btn-icon btn-pills btn-primary lightbox">
+                                        <i class="mdi mdi-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="section-title ms-lg-5">
+                            <h6 class="text-primary fw-normal">Job Placement Offers</h6>
+                            <h4 class="title mb-4">We are Largest Job <br> Site in The World</h4>
+                            <p class="text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap html page.</p>
+                            <p class="text-muted mb-0">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. This might also explain why one can now find slightly different versions.</p>
+                        
+                            <div class="mt-4 pt-2">
+                                <a href="javascript:void(0)" class="btn btn-link primary text-muted h6 mb-0">Read More <span class="h5 mb-0 ms-1"><i class="uil uil-arrow-right align-middle"></i></span></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="counter-box position-relative text-center">
+                            <h2 class="mb-0 display-3 fw-bold title-dark mt-2 opacity-1"><span class="counter-value" data-target="200">3</span>+K</h2>
+                            <span class="counter-head fw-normal title-dark position-absolute top-50 start-0 end-0 fs-5">Total User</span>
+                        </div><!--end counter box-->
+                    </div><!--end col-->
+
+                    <div class="col-md-3 col-6">
+                        <div class="counter-box position-relative text-center">
+                            <h2 class="mb-0 display-3 fw-bold title-dark mt-2 opacity-1"><span class="counter-value" data-target="15">1</span>+</h2>
+                            <span class="counter-head fw-normal title-dark position-absolute top-50 start-0 end-0 fs-5">Years of Experience</span>
+                        </div><!--end counter box-->
+                    </div><!--end col-->
+
+                    <div class="col-md-3 col-6">
+                        <div class="counter-box position-relative text-center">
+                            <h2 class="mb-0 display-3 fw-bold title-dark mt-2 opacity-1"><span class="counter-value" data-target="54">0</span></h2>
+                            <span class="counter-head fw-normal title-dark position-absolute top-50 start-0 end-0 fs-5">Offices in the World</span>
+                        </div><!--end counter box-->
+                    </div><!--end col-->
+
+                    <div class="col-md-3 col-6">
+                        <div class="counter-box position-relative text-center">
+                            <h2 class="mb-0 display-3 fw-bold title-dark mt-2 opacity-1"><span class="counter-value" data-target="125">3</span>K</h2>
+                            <span class="counter-head fw-normal title-dark position-absolute top-50 start-0 end-0 fs-5">No. of Job Positions</span>
+                        </div><!--end counter box-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+        
+        <!-- Start -->
+        <section class="section bg-light" id="jobs">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Popular Jobs</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row g-4 pt-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="ribbon ribbon-right ribbon-warning overflow-hidden"><span class="text-center d-block shadow small fs-6">New</span></div>
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Software Engineering</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Full Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$950 - $1100/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/facebook-logo-2019.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Facebook Ltd.</h6>
+                                    <small class="text-muted">Australia</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Web Developer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Remote</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$2500 - $2600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/google-logo.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Google Ltd.</h6>
+                                    <small class="text-muted">America</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">UX/UI Designer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Freelance</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$3500 - $3600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/linkedin.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Linkedin Ltd.</h6>
+                                    <small class="text-muted">Canada</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Human Resource(HR)</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Part Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$2000 - $2500/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/skype.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Skype Ltd.</h6>
+                                    <small class="text-muted">UK</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Web Designer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Full Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$1500 - $1600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/spotify.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Spotify Ltd.</h6>
+                                    <small class="text-muted">China</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Graphic Designer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Part time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$500 - $600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/telegram.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Telegram Ltd.</h6>
+                                    <small class="text-muted">India</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-12 mt-4">
+                        <div class="text-center">
+                            <a href="jobs.html" class="btn btn-link primary text-muted h6 mb-0">See More Jobs <span class="h5 mb-0 ms-1"><i class="uil uil-arrow-right align-middle"></i></span></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start -->
+        <section class="section" id="testi">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">What Our Users Say</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <div class="tiny-three-item">
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative text-center">
+                                        <i class="mdi mdi-format-quote-open mdi-48px text-primary"></i>
+                                        <p class="text-muted fst-italic">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    
+                                        <ul class="list-unstyled mb-0 text-warning mt-2">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+
+                                        <div class="position-absolute top-50">
+                                            <img src="images/square/square-success.png" class="avatar avatar-small rounded" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <img src="images/client/01.jpg" class="avatar avatar-small rounded-pill shadow" alt="">
+                                        <h6 class="mb-1 mt-2 fw-normal text-dark">Calvin Carlo</h6>
+                                        <small class="text-muted d-block">Manager</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative text-center">
+                                        <i class="mdi mdi-format-quote-open mdi-48px text-primary"></i>
+                                        <p class="text-muted fst-italic">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    
+                                        <ul class="list-unstyled mb-0 text-warning mt-2">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+
+                                        <div class="position-absolute top-50">
+                                            <img src="images/square/square-success.png" class="avatar avatar-small rounded" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <img src="images/client/02.jpg" class="avatar avatar-small rounded-pill shadow" alt="">
+                                        <h6 class="mb-1 mt-2 fw-normal text-dark">Christa Smith</h6>
+                                        <small class="text-muted d-block">Manager</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative text-center">
+                                        <i class="mdi mdi-format-quote-open mdi-48px text-primary"></i>
+                                        <p class="text-muted fst-italic">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    
+                                        <ul class="list-unstyled mb-0 text-warning mt-2">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+
+                                        <div class="position-absolute top-50">
+                                            <img src="images/square/square-success.png" class="avatar avatar-small rounded" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small rounded-pill shadow" alt="">
+                                        <h6 class="mb-1 mt-2 fw-normal text-dark">Jemina CLone</h6>
+                                        <small class="text-muted d-block">Manager</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative text-center">
+                                        <i class="mdi mdi-format-quote-open mdi-48px text-primary"></i>
+                                        <p class="text-muted fst-italic">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    
+                                        <ul class="list-unstyled mb-0 text-warning mt-2">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+
+                                        <div class="position-absolute top-50">
+                                            <img src="images/square/square-success.png" class="avatar avatar-small rounded" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <img src="images/client/04.jpg" class="avatar avatar-small rounded-pill shadow" alt="">
+                                        <h6 class="mb-1 mt-2 fw-normal text-dark">Smith Vodka</h6>
+                                        <small class="text-muted d-block">Manager</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative text-center">
+                                        <i class="mdi mdi-format-quote-open mdi-48px text-primary"></i>
+                                        <p class="text-muted fst-italic">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    
+                                        <ul class="list-unstyled mb-0 text-warning mt-2">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+
+                                        <div class="position-absolute top-50">
+                                            <img src="images/square/square-success.png" class="avatar avatar-small rounded" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <img src="images/client/05.jpg" class="avatar avatar-small rounded-pill shadow" alt="">
+                                        <h6 class="mb-1 mt-2 fw-normal text-dark">Cristino Murfi</h6>
+                                        <small class="text-muted d-block">Manager</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60" id="apps">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <img src="images/svg/envelope.svg" class="img-fluid mx-auto d-block" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-7 col-md-7 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <span class="badge bg-soft-primary rounded-pill mb-2">Mobile Apps</span>
+                            <h4 class="title mb-4">Available for your <br> Smartphones</h4>
+                            <p class="text-muted para-desc mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                            <div class="my-4">
+                                <a href="javascript:void(0)">
+                                    <img src="images/app/app.png" class="m-1" height="50" alt="">
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <img src="images/app/playstore.png" class="m-1" height="50" alt="">
+                                </a>
+                            </div>
+
+                            <div class="d-inline-block">
+                                <div class="pt-4 d-flex align-items-center border-top">
+                                    <i data-feather="smartphone" class="fea icon-md me-2 text-primary"></i>
+                                    <div class="content">
+                                        <h6 class="mb-0 fw-normal">Install app now on your cellphones</h6>
+                                        <a href="javascript:void(0)" class="text-primary">Learn More <i class="uil uil-angle-right-b"></i></a>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start Footer -->
+        <footer class="bg-footer footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-30">
+                            <div class="container text-center">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-6">
+                                        <div class="text-sm-start">
+                                            <a href="#" class="logo-footer">
+                                                <img src="images/logo-light.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><!--end col-->
+                
+                                    <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                        <ul class="list-unstyled footer-list terms-service text-sm-end mb-0">
+                                            <li class="list-inline-item mb-0"><a href="jobs.html" class="text-foot me-2">Jobs</a></li>
+                                            <li class="list-inline-item mb-0"><a href="javascript:void(0)" class="text-foot me-2">Companies</a></li>
+                                            <li class="list-inline-item mb-0"><a href="page-faqs.html" class="text-foot me-2">FAQs</a></li>
+                                            <li class="list-inline-item mb-0"><a href="page-contact-one.html" class="text-foot">Contact</a></li>
+                                        </ul>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-border">
+                <div class="container text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Fronter. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <!-- End Footer -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- Style switcher -->
+        <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
+            <div class="content">
+                <h6 class="title text-center">Select Your Color</h6>
+                <ul class="pattern">
+                    <li class="list-inline-item">
+                        <a class="color1" href="javascript: void(0);" onclick="setColor('default')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color2" href="javascript: void(0);" onclick="setColor('yellow')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color3" href="javascript: void(0);" onclick="setColor('purple')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color4" href="javascript: void(0);" onclick="setColor('red')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color5" href="javascript: void(0);" onclick="setColor('green')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color6" href="javascript: void(0);" onclick="setColor('orange')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color7" href="javascript: void(0);" onclick="setColor('rose')"></a>
+                    </li>
+                </ul>
+
+                <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
+                <ul class="text-center list-unstyled mb-0">
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2" onclick="setTheme('style-dark')">Dark</a></li>
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark light-version t-light mt-2" onclick="setTheme('style')">Light</a></li>
+                </ul>
+            </div>
+            <div class="bottom p-0">
+                <a href="javascript: void(0);" class="settings bg-white title-bg-dark shadow d-block"><i class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"></i></a>
+            </div>
+        </div>
+        <!-- end Style switcher -->
+
+        <!-- JAVASCRIPTS -->
+	    <script src="js/bootstrap.bundle.min.js"></script>
+	    <script src="js/gumshoe.polyfills.min.js"></script>
+        <!-- Tiny slider -->
+        <script src="js/tiny-slider.js"></script>
+        <!-- Tobii -->
+        <script src="js/tobii.min.js"></script>
+        <!-- Icons -->
+        <script src="js/feather.min.js"></script>
+        <!-- Parallax -->
+        <script src="js/parallax.js"></script>
+        <!-- Choice js -->
+        <script src="js/choices.min.js"></script>
+        <!-- Datepicker -->
+        <script src="js/datepicker.min.js"></script>
+	    <!-- Custom -->
+	    <script src="js/plugins.init.js"></script>
+	    <script src="js/app.js"></script>
+    </body>
+
+<!-- Mirrored from shreethemes.in/fronter/index-job.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Jul 2022 15:10:57 GMT -->
+</html>

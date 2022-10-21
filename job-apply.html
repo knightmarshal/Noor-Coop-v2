@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+	
+<!-- Mirrored from shreethemes.in/fronter/job-apply.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Jul 2022 15:11:53 GMT -->
+<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Fronter - One Page & Multipurpose Parallax Template</title>
+	    <meta name="description" content="Responsive HTML5 Template" />
+	    <meta name="keywords" content="Onepage, creative, modern, bootstrap 5, multipurpose, clean" />
+	    <meta name="author" content="Shreethemes" />
+	    <meta name="website" content="https://shreethemes.in/" />
+	    <meta name="email" content="support@shreethemes.in" />
+	    <meta name="version" content="1.1.0" />
+	    <!-- favicon -->
+        <link href="images/favicon.ico" rel="shortcut icon">
+		<!-- Bootstrap core CSS -->
+	    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+	    <!-- Material Icon -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+        <!-- Choice css -->               
+        <link rel="stylesheet" href="css/choices.min.css"/>
+        <!-- Date picker -->
+        <link rel="stylesheet" href="css/datepicker.min.css">
+	    <!-- Custom  Css -->
+	    <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/colors/green.css" rel="stylesheet" id="color-opt">
+	</head>
+
+	<body>
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+				<a class="logo" href="index-job.html">
+                    <span class="logo-light-mode">
+                        <img src="images/logo-dark.png" class="l-dark" alt="">
+                        <img src="images/logo-light.png" class="l-light" alt="">
+                    </span>
+                    <img src="images/logo-light.png" class="logo-dark-mode" alt="">
+                </a>
+                <!-- Logo End -->
+
+                <!-- Start navbar Toggle-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+                <!-- End navbar Toggle-->
+
+                <!--Login button Start-->
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item ps-1 mb-0">
+                        <a href="auth-login.html"><div class="btn btn-icon btn-pills btn-primary"><i data-feather="user" class="fea icon-sm"></i></div></a>
+                    </li>
+                </ul>
+                <!--Login button End-->
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light nav-right">
+                        <li class="has-submenu">
+                            <a href="index-job.html" class="sub-menu-item">Home</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="jobs.html" class="sub-menu-item">Jobs</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="job-detail.html" class="sub-menu-item">Job Detail</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="job-apply.html" class="sub-menu-item">Job Apply</a>
+                        </li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half-170 d-table w-100" data-jarallax='{"speed": 0.5}' style="background: url('images/bg/job.jpg');">
+            <div class="bg-overlay bg-gradient-overlay-2"></div>
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-12">
+                        <div class="title-heading text-center">
+                            <h4 class="fw-semibold mb-0 text-white title-dark">Senior Web Developer</h4>
+                            
+                            <ul class="list-unstyled mt-2">
+                                <li class="list-inline-item text-muted small me-3"><i class="uil uil-map-marker text-white title-dark h6 me-1"></i> London, UK - <span class="text-white title-dark">Full Time</span></li>
+                            </ul>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- Hero End -->
+        
+        <!-- Job apply form Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-7">
+                        <form class="rounded shadow p-4">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Name :<span class="text-danger">*</span></label>
+                                        <input name="name" id="name" type="text" class="form-control" placeholder="First Name :">
+                                    </div>
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Email :<span class="text-danger">*</span></label>
+                                        <input name="email" id="email" type="email" class="form-control" placeholder="Your email :">
+                                    </div> 
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Phone no. :<span class="text-danger">*</span></label>
+                                        <input name="number" id="number" type="number" class="form-control" placeholder="Your phone no. :">
+                                    </div> 
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Job Title :</label>
+                                        <input name="subject" id="subject" class="form-control" placeholder="Title :">
+                                    </div>                                                                               
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Types of jobs :</label>
+                                        <select class="form-control custom-select" id="Sortbylist-Shop">
+                                            <option>All Jobs</option>
+                                            <option>Full Time</option>
+                                            <option>Half Time</option>
+                                            <option>Remote</option>
+                                            <option>In Office</option>
+                                        </select>
+                                    </div>
+                                </div><!--end col-->
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Description :</label>
+                                        <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Describe the job :"></textarea>
+                                    </div>
+                                </div><!--end col-->                                    
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label for="formFile" class="form-label">Upload Your Cv / Resume :</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>                                                                               
+                                </div><!--end col-->
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                            <label class="form-check-label text-muted" for="flexCheckDefault2">I Accept <a href="#" class="text-primary">Terms And Condition</a></label>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary" value="Apply Now">
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </form><!--end form-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <img src="images/svg/envelope.svg" class="img-fluid mx-auto d-block" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-7 col-md-7 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <span class="badge bg-soft-primary rounded-pill mb-2">Mobile Apps</span>
+                            <h4 class="title mb-4">Available for your <br> Smartphones</h4>
+                            <p class="text-muted para-desc mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                            <div class="my-4">
+                                <a href="javascript:void(0)">
+                                    <img src="images/app/app.png" class="m-1" height="50" alt="">
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <img src="images/app/playstore.png" class="m-1" height="50" alt="">
+                                </a>
+                            </div>
+
+                            <div class="d-inline-block">
+                                <div class="pt-4 d-flex align-items-center border-top">
+                                    <i data-feather="smartphone" class="fea icon-md me-2 text-primary"></i>
+                                    <div class="content">
+                                        <h6 class="mb-0 fw-normal">Install app now on your cellphones</h6>
+                                        <a href="javascript:void(0)" class="text-primary">Learn More <i class="uil uil-angle-right-b"></i></a>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start Footer -->
+        <footer class="bg-footer footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-30">
+                            <div class="container text-center">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-6">
+                                        <div class="text-sm-start">
+                                            <a href="#" class="logo-footer">
+                                                <img src="images/logo-light.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><!--end col-->
+                
+                                    <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                        <ul class="list-unstyled footer-list terms-service text-sm-end mb-0">
+                                            <li class="list-inline-item mb-0"><a href="jobs.html" class="text-foot me-2">Jobs</a></li>
+                                            <li class="list-inline-item mb-0"><a href="javascript:void(0)" class="text-foot me-2">Companies</a></li>
+                                            <li class="list-inline-item mb-0"><a href="page-faqs.html" class="text-foot me-2">FAQs</a></li>
+                                            <li class="list-inline-item mb-0"><a href="page-contact-one.html" class="text-foot">Contact</a></li>
+                                        </ul>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-border">
+                <div class="container text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Fronter. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <!-- End Footer -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- Style switcher -->
+        <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
+            <div class="content">
+                <h6 class="title text-center">Select Your Color</h6>
+                <ul class="pattern">
+                    <li class="list-inline-item">
+                        <a class="color1" href="javascript: void(0);" onclick="setColor('default')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color2" href="javascript: void(0);" onclick="setColor('yellow')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color3" href="javascript: void(0);" onclick="setColor('purple')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color4" href="javascript: void(0);" onclick="setColor('red')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color5" href="javascript: void(0);" onclick="setColor('green')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color6" href="javascript: void(0);" onclick="setColor('orange')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color7" href="javascript: void(0);" onclick="setColor('rose')"></a>
+                    </li>
+                </ul>
+
+                <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
+                <ul class="text-center list-unstyled mb-0">
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2" onclick="setTheme('style-dark')">Dark</a></li>
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark light-version t-light mt-2" onclick="setTheme('style')">Light</a></li>
+                </ul>
+            </div>
+            <div class="bottom p-0">
+                <a href="javascript: void(0);" class="settings bg-white title-bg-dark shadow d-block"><i class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"></i></a>
+            </div>
+        </div>
+        <!-- end Style switcher -->
+
+        <!-- JAVASCRIPTS -->
+	    <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Icons -->
+        <script src="js/feather.min.js"></script>
+        <!-- Parallax -->
+        <script src="js/parallax.js"></script>
+        <!-- Choice js -->
+        <script src="js/choices.min.js"></script>
+        <!-- Datepicker -->
+        <script src="js/datepicker.min.js"></script>
+	    <!-- Custom -->
+	    <script src="js/plugins.init.js"></script>
+	    <script src="js/app.js"></script>
+    </body>
+
+<!-- Mirrored from shreethemes.in/fronter/job-apply.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Jul 2022 15:11:53 GMT -->
+</html>

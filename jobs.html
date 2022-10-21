@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+	
+<!-- Mirrored from shreethemes.in/fronter/jobs.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Jul 2022 15:11:53 GMT -->
+<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Fronter - One Page & Multipurpose Parallax Template</title>
+	    <meta name="description" content="Responsive HTML5 Template" />
+	    <meta name="keywords" content="Onepage, creative, modern, bootstrap 5, multipurpose, clean" />
+	    <meta name="author" content="Shreethemes" />
+	    <meta name="website" content="https://shreethemes.in/" />
+	    <meta name="email" content="support@shreethemes.in" />
+	    <meta name="version" content="1.1.0" />
+	    <!-- favicon -->
+        <link href="images/favicon.ico" rel="shortcut icon">
+		<!-- Bootstrap core CSS -->
+	    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+	    <!-- Material Icon -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+        <!-- Choice css -->               
+        <link rel="stylesheet" href="css/choices.min.css"/>
+        <!-- Date picker -->
+        <link rel="stylesheet" href="css/datepicker.min.css">
+	    <!-- Custom  Css -->
+	    <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/colors/green.css" rel="stylesheet" id="color-opt">
+	</head>
+
+	<body>
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+				<a class="logo" href="index-job.html">
+                    <span class="logo-light-mode">
+                        <img src="images/logo-dark.png" class="l-dark" alt="">
+                        <img src="images/logo-light.png" class="l-light" alt="">
+                    </span>
+                    <img src="images/logo-light.png" class="logo-dark-mode" alt="">
+                </a>
+                <!-- Logo End -->
+
+                <!-- Start navbar Toggle-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+                <!-- End navbar Toggle-->
+
+                <!--Login button Start-->
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item ps-1 mb-0">
+                        <a href="auth-login.html"><div class="btn btn-icon btn-pills btn-primary"><i data-feather="user" class="fea icon-sm"></i></div></a>
+                    </li>
+                </ul>
+                <!--Login button End-->
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light nav-right">
+                        <li class="has-submenu">
+                            <a href="index-job.html" class="sub-menu-item">Home</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="jobs.html" class="sub-menu-item">Jobs</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="job-detail.html" class="sub-menu-item">Job Detail</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="job-apply.html" class="sub-menu-item">Job Apply</a>
+                        </li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half-170 d-table w-100" data-jarallax='{"speed": 0.5}' style="background: url('images/bg/job.jpg');">
+            <div class="bg-overlay bg-gradient-overlay-2"></div>
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-12">
+                        <div class="title-heading text-center">
+                            <h5 class="heading fw-semibold mb-0 sub-heading text-white title-dark">Job Listings</h5>
+                            <nav aria-label="breadcrumb" class="d-block mt-3">
+                                <ul class="breadcrumb breadcrumb-muted mb-0 p-0">
+                                    <li class="breadcrumb-item"><a href="index-job.html">Fronter</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Jobs</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- Hero End -->
+        
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="features-absolute">
+                            <div class="row justify-content-center" id="reserve-form">
+                                <div class="col-lg-10 mt-lg-5">
+                                    <div class="card feature-top border-0 shadow rounded p-3">
+                                        <form action="#">
+                                            <div class="registration-form text-dark text-start">
+                                                <div class="row g-lg-0">
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="filter-search-form position-relative filter-border">
+                                                            <i class="uil uil-briefcase-alt icons"></i>
+                                                            <input name="name" type="text" id="job-keyword" class="form-control filter-input-box bg-light border-0" placeholder="Search your keaywords">
+                                                        </div>
+                                                    </div><!--end col-->
+
+                                                    <div class="col-lg-3 col-md-6 mt-3 mt-md-0">
+                                                        <div class="filter-search-form position-relative filter-border">
+                                                            <i class="uil uil-map-marker icons"></i>
+                                                            <select class="form-select" data-trigger name="choices-location" id="choices-location" aria-label="Default select example">
+                                                                <option value="AF">Afghanistan</option>
+                                                                <option value="AZ">Azerbaijan</option>
+                                                                <option value="BS">Bahamas</option>
+                                                                <option value="BH">Bahrain</option>
+                                                                <option value="CA">Canada</option>
+                                                                <option value="CV">Cape Verde</option>
+                                                                <option value="DK">Denmark</option>
+                                                                <option value="DJ">Djibouti</option>
+                                                                <option value="ER">Eritrea</option>
+                                                                <option value="EE">Estonia</option>
+                                                                <option value="GM">Gambia</option>
+                                                            </select>
+                                                        </div>
+                                                    </div><!--end col-->
+                                                    
+                                                    <div class="col-lg-3 col-md-6 mt-3 mt-lg-0">
+                                                        <div class="filter-search-form position-relative filter-border">
+                                                            <i class="uil uil-briefcase-alt icons"></i>
+                                                            <select class="form-select " data-trigger name="choices-type" id="choices-type" aria-label="Default select example">
+                                                                <option selected="" value="1">Full Time</option>
+                                                                <option value="2">Part Time</option>
+                                                                <option value="3">Freelancer</option>
+                                                                <option value="4">Remote Work</option>
+                                                                <option value="5">Office Work</option>
+                                                            </select>
+                                                        </div>
+                                                    </div><!--end col-->
+
+                                                    <div class="col-lg-3 col-md-6 mt-3 mt-lg-0">
+                                                        <input type="submit" id="search" name="search" style="height: 60px;" class="btn btn-primary searchbtn submit-btn w-100" value="Search">
+                                                    </div><!--end col-->
+                                                </div><!--end row-->
+                                            </div><!--end container-->
+                                        </form>
+                                    </div>
+                                </div><!--ed col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container">
+                <div class="row g-4 mt-4 mt-lg-0">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Software Engineering</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Full Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$950 - $1100/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/facebook-logo-2019.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Facebook Ltd.</h6>
+                                    <small class="text-muted">Australia</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Web Developer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Remote</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$2500 - $2600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/google-logo.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Google Ltd.</h6>
+                                    <small class="text-muted">America</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">UX/UI Designer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Freelance</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$3500 - $3600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/linkedin.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Linkedin Ltd.</h6>
+                                    <small class="text-muted">Canada</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Human Resource(HR)</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Part Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$2000 - $2500/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/skype.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Skype Ltd.</h6>
+                                    <small class="text-muted">UK</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Web Designer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Full Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$1500 - $1600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/spotify.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Spotify Ltd.</h6>
+                                    <small class="text-muted">China</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Graphic Designer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Part time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$500 - $600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/telegram.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Telegram Ltd.</h6>
+                                    <small class="text-muted">India</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Senior Web Developer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Full Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$950 - $1100/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/circle-logo.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Circle CI Ltd.</h6>
+                                    <small class="text-muted">Australia</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Front-End Developer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Remote</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$2500 - $2600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/lenovo-logo.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Lenovo Ltd.</h6>
+                                    <small class="text-muted">America</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Back-End Developer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Freelance</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$3500 - $3600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/shree-logo.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Shreethemes Ltd.</h6>
+                                    <small class="text-muted">Canada</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Data Entry</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Part Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$2000 - $2500/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/snapchat.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Snapchat Ltd.</h6>
+                                    <small class="text-muted">UK</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Android Developer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Full Time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$1500 - $1600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/android.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Android Ltd.</h6>
+                                    <small class="text-muted">China</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card features feature-primary rounded shadow">
+                            <div class="card-body content">
+                                <a href="job-detail.html" class="h5 mb-1 d-block title text-dark">Sketch Designer</a>
+                                <p class="text-muted"><i class="uil uil-clock link"></i> Posted 3 Days ago</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="badge rounded bg-soft">Part time</span>
+                                    <div>
+                                        <i class="uil uil-usd-circle link"></i>
+                                        <span class="text-muted">$500 - $600/mo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-4 border-top">
+                                <img src="images/brands/shree-logo.png" class="avatar avatar-md-sm shadow-md rounded-md p-2 bg-white" alt="">
+
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Shreethemes Ltd.</h6>
+                                    <small class="text-muted">India</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <img src="images/svg/envelope.svg" class="img-fluid mx-auto d-block" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-7 col-md-7 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <span class="badge bg-soft-primary rounded-pill mb-2">Mobile Apps</span>
+                            <h4 class="title mb-4">Available for your <br> Smartphones</h4>
+                            <p class="text-muted para-desc mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                            <div class="my-4">
+                                <a href="javascript:void(0)">
+                                    <img src="images/app/app.png" class="m-1" height="50" alt="">
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <img src="images/app/playstore.png" class="m-1" height="50" alt="">
+                                </a>
+                            </div>
+
+                            <div class="d-inline-block">
+                                <div class="pt-4 d-flex align-items-center border-top">
+                                    <i data-feather="smartphone" class="fea icon-md me-2 text-primary"></i>
+                                    <div class="content">
+                                        <h6 class="mb-0 fw-normal">Install app now on your cellphones</h6>
+                                        <a href="javascript:void(0)" class="text-primary">Learn More <i class="uil uil-angle-right-b"></i></a>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start Footer -->
+        <footer class="bg-footer footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-30">
+                            <div class="container text-center">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-6">
+                                        <div class="text-sm-start">
+                                            <a href="#" class="logo-footer">
+                                                <img src="images/logo-light.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><!--end col-->
+                
+                                    <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                        <ul class="list-unstyled footer-list terms-service text-sm-end mb-0">
+                                            <li class="list-inline-item mb-0"><a href="jobs.html" class="text-foot me-2">Jobs</a></li>
+                                            <li class="list-inline-item mb-0"><a href="javascript:void(0)" class="text-foot me-2">Companies</a></li>
+                                            <li class="list-inline-item mb-0"><a href="page-faqs.html" class="text-foot me-2">FAQs</a></li>
+                                            <li class="list-inline-item mb-0"><a href="page-contact-one.html" class="text-foot">Contact</a></li>
+                                        </ul>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-border">
+                <div class="container text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Fronter. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <!-- End Footer -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- Style switcher -->
+        <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
+            <div class="content">
+                <h6 class="title text-center">Select Your Color</h6>
+                <ul class="pattern">
+                    <li class="list-inline-item">
+                        <a class="color1" href="javascript: void(0);" onclick="setColor('default')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color2" href="javascript: void(0);" onclick="setColor('yellow')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color3" href="javascript: void(0);" onclick="setColor('purple')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color4" href="javascript: void(0);" onclick="setColor('red')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color5" href="javascript: void(0);" onclick="setColor('green')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color6" href="javascript: void(0);" onclick="setColor('orange')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color7" href="javascript: void(0);" onclick="setColor('rose')"></a>
+                    </li>
+                </ul>
+
+                <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
+                <ul class="text-center list-unstyled mb-0">
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2" onclick="setTheme('style-dark')">Dark</a></li>
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark light-version t-light mt-2" onclick="setTheme('style')">Light</a></li>
+                </ul>
+            </div>
+            <div class="bottom p-0">
+                <a href="javascript: void(0);" class="settings bg-white title-bg-dark shadow d-block"><i class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"></i></a>
+            </div>
+        </div>
+        <!-- end Style switcher -->
+
+        <!-- JAVASCRIPTS -->
+	    <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Icons -->
+        <script src="js/feather.min.js"></script>
+        <!-- Parallax -->
+        <script src="js/parallax.js"></script>
+        <!-- Choice js -->
+        <script src="js/choices.min.js"></script>
+        <!-- Datepicker -->
+        <script src="js/datepicker.min.js"></script>
+	    <!-- Custom -->
+	    <script src="js/plugins.init.js"></script>
+	    <script src="js/app.js"></script>
+    </body>
+
+<!-- Mirrored from shreethemes.in/fronter/jobs.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Jul 2022 15:11:53 GMT -->
+</html>
